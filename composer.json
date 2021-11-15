@@ -1,0 +1,36 @@
+{
+  "name": "noxkiwi/money",
+  "description": "I am the minimal Helper Library to exchange money values between currencies. Big shoutout to the guys from ratesAPI for providing a very simple exchange rate.",
+  "version": "1.0.0",
+  "type": "package",
+  "license": "proprietary",
+  "keywords": [
+    "Money",
+    "Currency",
+    "Exchange",
+    "ratesAPI"
+  ],
+  "homepage": "https://nox.kiwi/",
+  "time": "2020-06-16",
+  "authors": [
+    {
+      "name": "Jan Nox",
+      "email": "jan.nox@pm.me",
+      "homepage": "https://nox.kiwi",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0",
+    "ext-bcmath": "*",
+    "noxkiwi/core": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "noxkiwi\\money\\": "backend/class/"
+    }
+  }
+}
