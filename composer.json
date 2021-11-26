@@ -3,7 +3,7 @@
   "description": "I am the minimal Helper Library to exchange money values between currencies. Big shoutout to the guys from ratesAPI for providing a very simple exchange rate.",
   "version": "1.0.0",
   "type": "package",
-  "license": "proprietary",
+  "license": "GPL-3.0-or-later",
   "keywords": [
     "Money",
     "Currency",
@@ -23,7 +23,7 @@
   "require": {
     "php": ">=8.0.0",
     "ext-bcmath": "*",
-    "noxkiwi/core": "*"
+    "noxkiwi/core": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "^7"
