@@ -1,6 +1,7 @@
 <?php declare(strict_types = 1);
 namespace noxkiwi\money;
 
+use JetBrains\PhpStorm\Pure;
 use noxkiwi\core\Helper\StringHelper;
 
 /**
@@ -40,7 +41,7 @@ final class Money
      * I will simply output the price without formatting.
      * @return string
      */
-    public function output(): string
+    #[Pure] public function output(): string
     {
         return StringHelper::interpolate(
             $this->getCurrency()::MASK,
