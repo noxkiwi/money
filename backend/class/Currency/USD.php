@@ -17,4 +17,5 @@ final class USD extends Currency
 {
     public const CODE   = 'USD';
     public const SYMBOL = '$';
+    public const MASK   = '<abbr title="{code}">{symbol}</abbr> {value}';
 }
